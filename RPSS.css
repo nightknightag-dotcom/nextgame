@@ -9,19 +9,19 @@ left: 0px;
 height: 80px;
 justify-content: space-between;
 align-items: center;
-
+z-index: 5;
 }
 
 .game{
 
-position: fixed;
-display: flex;
-flex-direction: row;
-top: 300px;
-right: 0px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 15px;
+position: absolute;
+top: 150px;
 left: 0px;
-justify-content: space-between;
-align-items: center;
+right:0px ;
+
 }
 
 
@@ -175,5 +175,4 @@ background-color: aqua;
 text-align: center;
 font-weight: bolder;
 }
-
 
